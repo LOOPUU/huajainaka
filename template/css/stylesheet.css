@@ -1,0 +1,271 @@
+.img-logo {
+  width: 150px !important;
+}
+.desc a,.desc a:hover{
+  color: #203014;
+  font-weight: 500;
+}
+
+.icon-youtube {
+  background-image: url("template/images/1384060.png") !important;
+  font-size: larger;
+  color: red;
+
+}
+.icon-video {
+  width: 30px !important;
+}
+
+.hr-style {
+  border: 1px solid #e2bc655e;
+  width: auto;
+}
+
+.about-desc p {
+  font-weight: 300;
+}
+
+.select-style {
+  width:50%; 
+  height: 50px; 
+  border: 1px solid #e2bc65;
+  background-color: #e2bc65;
+  text-align: center;
+  border-radius: 5px 5px;
+  margin-bottom:40px;
+}
+
+.select-style option {
+  height: 150px;
+}
+
+.blog-select {
+  padding:30px 30px;
+}
+
+.desc-contact a{
+  color: #203014 !important;
+  font-weight: bolder !important;
+  font-size: 14px;
+}
+
+.btn-naka {
+  background-color: #e2bc65;
+  color: #203014;
+  font-weight: bolder !important;
+}
+
+.btn-naka-login {
+  background-color: #e2bc65;
+  color: #203014;
+  font-weight: bolder !important;
+}
+
+.nav-naka {
+  margin: auto;
+  margin-top: 30px;
+}
+
+.nav-naka-detail li{
+  width:100%;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+  color: #203014;
+  background-color: #e2bc65;
+}
+
+.nav-naka li{
+  width:50%;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+  color: #203014;
+  background-color: #e2bc65;
+}
+
+.nav-naka-course li{
+  width:100%;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+  color: #203014;
+  background-color: #e2bc65;
+}
+
+.active-naka{
+  background-color: #203014 !important;
+  color: #e2bc65 !important;
+}
+
+.active-naka-detail{
+  background-color: #203014 !important;
+  color: #e2bc65 !important;
+  padding: 10px 10px;
+}
+
+.active-naka-course{
+  background-color: #203014 !important;
+  color: #e2bc65 !important;
+  padding: 10px 10px;
+}
+
+.nav-naka li a{
+  color: #203014;
+}
+
+.nav-naka li a:hover{
+  background-color: #e2bc65 !important;
+  color: #203014 !important;
+}
+
+.active-naka a{
+  color: #e2bc65 !important;
+}
+
+.active-naka a:hover{
+  background-color: #e2bc65 !important;
+  color: #203014 !important;
+}
+
+.active-naka a:active{
+  background-color: #e2bc65 !important;
+  color: #203014 !important;
+}
+
+.tab-naka {
+  background-color: #f3deae;
+  padding: 20px 20px;
+}
+
+.menu-login {
+  z-index: 10;
+  float: right;
+  position: absolute;
+  width: 100%;
+  text-align: right;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 2000px){
+  .blog-log-member-course {
+    width: 80%;
+    margin: auto;
+  }
+
+  .blog-log {
+    width: 40%;
+    margin: auto;
+  }
+
+  .blog-log-member {
+    width: 60%;
+    margin: auto;
+  }
+
+  .blog-log-member-learn {
+    width: 80%;
+    margin: auto;
+  }
+
+  .blog-detail {
+    width: 80%;
+    margin: auto;
+  }
+
+  .btn-naka-green {
+    background-color: #203014 !important;
+    color:#e2bc65 !important;
+    width: 50% !important;
+    font-weight: bolder !important;
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  .blog-log {
+    width: 100%;
+    margin: auto;
+  }
+
+  .blog-log-member {
+    width: 100%;
+    margin: auto;
+  }
+
+  .blog-log-member-learn {
+    width: 100%;
+    margin: auto;
+  }
+
+  .blog-detail {
+    width: 100%;
+    margin: auto;
+  }
+
+  .btn-naka-green {
+    background-color: #203014 !important;
+    color:#e2bc65 !important;
+    width: 100% !important;
+  }
+
+  .blog-log-member-course {
+    width: 100%;
+    margin: auto;
+  }
+
+}
+
+
+.bt-center {
+  text-align: center;
+}
+
+.bt-password{
+  margin-top: 20px;
+}
+
+.bt-password a {
+  text-decoration: underline;
+  color:#203014 !important;
+}
+
+.tab-naka-member {
+  background-color: #f3deae;
+  padding: 20px 20px;
+}
+
+.box-comment {
+  background-color: #ffe9b6 !important;
+    width: 100% !important;
+    margin-bottom: 30px !important;
+    padding: 20px 20px !important;
+    border-radius: 10px 10px;
+    color: #d5a22f;
+}
+.pt-comment {
+  margin-bottom: 30px !important;
+}
+
+.pt-user {
+  color: #203014 !important;
+}
+
+.hr-comment {
+  border-bottom: 2px dotted #d5a22f;
+}
+
+.comment {
+  height:150px !important;
+}
+
+.box-span {
+  padding: 10px 10px;
+}
+
+.scroll-comment {
+  border: 1px solid #ccc;
+  background-color: #8a6d3bb0 !important;
+  padding: 10px 10px;
+  height: 550px;
+  overflow: auto;
+  border-radius: 20px 20px;
+}
+
+
